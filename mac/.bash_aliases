@@ -16,6 +16,6 @@ alias serve='php -S '
 alias art='php artisan'
 
 # NPM & PACKAGES
-alias start='npm start'
+alias start='yarn start'
 alias cra='create-react-app'
 alias nr='npm run'
