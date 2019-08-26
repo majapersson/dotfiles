@@ -36,3 +36,7 @@ bind "set show-all-if-ambiguous on"
 # Only show two directories in path
 # .../web/git instead of /mnt/d/web/git
 export PROMPT_DIRTRIM=2
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+export PATH="/usr/local/sbin:$PATH"
